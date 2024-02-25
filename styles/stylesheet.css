@@ -1,0 +1,51 @@
+h1 {
+  color: hsla(240, 50%, 50%, 0.5);, 100%, 100%, .5);
+}
+div {
+  background-color: white;
+}
+p {
+  color: green;
+}
+body {
+  background-color: LightGray;
+}
+.purple-text {
+  color: rgba(160, 32, 240, .5);
+}
+.important {
+font-weight: bold;
+}
+#lead-paragraph {
+color: purple;
+font-weight: bold;
+}
+.important:hover {
+background-color: #0000FF;
+}
+a[href="https://github.com/tindalj/first.repo"] {
+background-color: orange;
+padding: 1rem;
+}
+a[href="https://github.com/tindalj/semantic-elements"] {
+background-color: blue;
+}
+h2 {
+color: red;
+border-style: solid;
+border-width: 1px;
+border-color: red;
+}
+p.important {
+width: 75%;
+}
+img {
+border-style: dashed;
+border-color: orange;
+border-width: 3px;
+width: 25%;
+}
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
