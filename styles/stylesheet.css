@@ -21,14 +21,14 @@ footer a:hover {
 .important {
 font-weight: bold;
 }
-#lead-paragraph {
-color: purple;
-font-weight: bold;
-}
 .important:hover {
 background-color: #FFFFFF;
 font-size: 200%;
 font-family: papyrus;
+}
+#lead-paragraph {
+color: purple;
+font-weight: bold;
 }
 a[href="https://github.com/tindalj/first.repo"] {
 background-color: orange;
@@ -43,14 +43,10 @@ border-style: solid;
 border-width: 1px;
 border-color: red;
 }
-p.important {
-width: 75%;
-}
 img {
 border-style: dashed;
 border-color: orange;
 border-width: 3px;
-width: 25%;
 }
 p.dotted {border-style: dotted;}
 p.dashed {border-style: dashed;}
