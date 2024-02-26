@@ -1,14 +1,19 @@
 h1 {
-  color: hsla(240, 50%, 50%, 0.5);, 100%, 100%, .5);
+  color: hsla(240, 50%, 50%, 0.5);
 }
 div {
   background-color: white;
 }
+p::first-letter { font-size: 150%; }
 p {
   color: green;
 }
 body {
   background-color: LightGray;
+}
+footer a:hover {
+  color: magenta;
+  font-family: papyrus;
 }
 .purple-text {
   color: rgba(160, 32, 240, .5);
@@ -21,7 +26,9 @@ color: purple;
 font-weight: bold;
 }
 .important:hover {
-background-color: #0000FF;
+background-color: #FFFFFF;
+font-size: 200%;
+font-family: papyrus;
 }
 a[href="https://github.com/tindalj/first.repo"] {
 background-color: orange;
