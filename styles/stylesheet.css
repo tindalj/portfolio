@@ -51,9 +51,8 @@
   font-style: normal;
 }
 
-.noto-sans jp-regular {
-  font-family: "Noto Sans JP", sans-serif;
-  font-optical-sizing: auto;
+.noto-serif-jp-regular {
+  font-family: "Noto Serif JP", serif;
   font-weight: 400;
   font-style: normal;
 }
