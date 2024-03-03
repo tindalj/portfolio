@@ -1,55 +1,69 @@
-html,
-h1 {
-  color: hsla(240, 50%, 50%, 0.5);
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content: flex-start;
+  gap:.5rem;
 }
-div {
-  background-color: white;
+
+.container-one {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
 }
-p::first-letter { font-size: 150%; }
-p {
-  color: green;
+
+.container-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
-body {
-  background-color: LightGray;
+
+.box {
+  border: 1px solid black;
+  background: white;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 1px;
 }
-footer a:hover {
-  color: magenta;
-  font-family: papyrus;
+
+.box-one {
+  border: 1px solid black;
+  background: white;
+  padding: .5rem;
+  padding-bottom: 1rem;
 }
-.purple-text {
-  color: rgba(160, 32, 240, .5);
+
+.cedarville-cursive-regular {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
-.important {
-font-weight: bold;
+
+.indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
-.important:hover {
-background-color: #FFFFFF;
-font-size: 200%;
-font-family: papyrus;
+
+.noto-sans jp-regular {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
-#lead-paragraph {
-color: purple;
-font-weight: bold;
+
+p.a {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 300%
 }
-a[href="https://github.com/tindalj/first.repo"] {
-background-color: orange;
-padding: 1rem;
+
+footer {
+  font-style: italic;
 }
-a[href="https://github.com/tindalj/semantic-elements"] {
-background-color: blue;
-}
-h2 {
-color: red;
-border-style: solid;
-border-width: 1px;
-border-color: red;
-}
-img {
-border-style: dashed;
-border-color: orange;
-border-width: 3px;
-}
-p.dotted {border-style: dotted;}
-p.dashed {border-style: dashed;}
-p.solid {border-style: solid;}
-p.double {border-style: double;}
