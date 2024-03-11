@@ -185,7 +185,7 @@ footer a {
 }
 .assignments-box {
     width: 25%;
-    height: 650px;
+    height: 250px;
     list-style-type: none;
     position: relative;
     text-align: center;
@@ -223,6 +223,24 @@ footer a {
   font-weight: 400;
   font-style: normal;
 }
-.tilt:hover {
-          transform: rotate(-10deg);
+ul li:hover {
+  transform: rotate(-10deg);
+}
+ul li:nth-child(even):hover {
+  transform: rotate(10deg);
+}
+img:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+}
+ul img {
+  --s: 200px;   /* the size of the image */
+  --b: 8px;     /* the border thickness*/
+  --g: 10px;    /* the gap */
+  --c: #0055;   /* the color */
+
+  width: var(--s);
+  outline: calc(var(--s)/3) solid #0055;
+  outline-offset: calc(var(--s)/-3);
+  transition: 0.3s;
 }
