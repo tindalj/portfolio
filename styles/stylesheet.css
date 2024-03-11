@@ -240,6 +240,7 @@ ul img {
   --c: #0055;   /* the color */
 
   width: var(--s);
+  aspect-ratio: 1;
   outline: calc(var(--s)/3) solid #0055;
   outline-offset: calc(var(--s)/-3);
   transition: 0.3s;
